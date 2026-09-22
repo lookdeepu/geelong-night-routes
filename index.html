@@ -1,0 +1,7 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Geelong Night Routes</title><link rel="stylesheet" href="style.css"></head>
+<body><div class="stars"></div><main><header><div><p class="eyebrow">GEELONG • AFTER DARK</p><h1>Night Routes</h1><p class="lede">A minimal one-day-to-night route through Geelong, ending where the sky gets darker.</p></div><button id="locate">◎ Use my location</button></header>
+<section class="panel controls"><div><label>Start</label><select id="start"></select></div><div><label>Finish</label><select id="finish"></select></div><button id="routeBtn">Find shortest route</button></section>
+<section class="grid"><article class="panel mapcard"><div class="sectionTitle"><h2>Route map</h2><span id="summary"></span></div><div id="map"><svg id="routeSvg" viewBox="0 0 900 420" aria-label="route diagram"></svg></div><p class="hint">Numbers show visit sequence. Arrow labels show distance in kilometres.</p></article><aside class="panel"><h2>Tonight's route</h2><div id="steps"></div></aside></section>
+<section class="panel itinerary"><div class="sectionTitle"><div><p class="eyebrow">ONE DAY PLAN</p><h2>From waterfront light to dark skies</h2></div></div><div id="cards"></div></section>
+<footer>Geelong Night Routes · Dijkstra shortest-path demo · Distances are approximate.</footer></main><script src="app.js"></script></body></html>
